@@ -1,0 +1,32 @@
+{
+  "name": "elm-helloworld",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "~5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talentpair/elm-helloworld.git"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --port 3000"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.4",
+    "jquery": "^2.2.0"
+  },
+  "devDependencies": {
+    "ace-css": "1",
+    "font-awesome": "4",
+    "css-loader": "0",
+    "elm-webpack-loader": "3.0.6",
+    "file-loader": "0",
+    "style-loader": "0",
+    "url-loader": "0",
+    "recursive-readdir": "2",
+    "webpack": "1",
+    "webpack-dev-middleware": "1",
+    "webpack-dev-server": "1"
+  }
+}
